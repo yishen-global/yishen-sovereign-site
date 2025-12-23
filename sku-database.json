@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": "OFFICE_MESH_V4",
+      "name": "Ergonomic Mesh Chair",
+      "hs_code": "9401.31",
+      "category": "OFFICE_ERGO",
+      "market": ["US", "EU", "GCC"],
+      "compliance": ["BIFMA", "CE", "ISO9001"],
+      "routing": "ASEAN_DUTY_SHIELD",
+      "cbm_efficiency": "97.2%",
+      "anti_dumping": true,
+      "seo_title": "Wholesale Ergonomic Mesh Chair – BIFMA Certified | YiShen",
+      "seo_path": "technical-passport.html?id=OFFICE_MESH_V4"
+    },
+    {
+      "id": "MARINE_CHAIN",
+      "name": "G80 Alloy Lifting Chain",
+      "hs_code": "7315.82",
+      "category": "MARITIME_HARDWARE",
+      "market": ["BR", "LATAM", "EU"],
+      "compliance": ["ABS", "CE"],
+      "routing": "BRAZIL_AD_EXEMPT",
+      "cbm_efficiency": "92%",
+      "anti_dumping": true,
+      "seo_title": "G80 Lifting Chain for Port Operations | YiShen Global",
+      "seo_path": "technical-passport.html?id=MARINE_CHAIN"
+    },
+    {
+      "id": "MEDICAL_CHAIR",
+      "name": "Sterile Medical Recliner",
+      "hs_code": "9402.10",
+      "category": "MEDICAL_PRECISION",
+      "market": ["ASEAN", "EU"],
+      "compliance": ["ISO13485", "CE"],
+      "routing": "FORM_E_ZERO_DUTY",
+      "cbm_efficiency": "88%",
+      "anti_dumping": false,
+      "seo_title": "ISO13485 Medical Recliner Chair Supplier | YiShen",
+      "seo_path": "technical-passport.html?id=MEDICAL_CHAIR"
+    }
+  ]
+}

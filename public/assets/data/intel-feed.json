@@ -1,0 +1,25 @@
+{
+  "signals": [
+    {
+      "sku": "OFFICE_MESH_V4",
+      "region": "US",
+      "trend": "PROCUREMENT_SURGE",
+      "intel": "Large distributors increasing ergonomic chair orders",
+      "confidence": 0.92
+    },
+    {
+      "sku": "MARINE_CHAIN",
+      "region": "BR",
+      "trend": "ANTI_DUMPING_EXEMPTION",
+      "intel": "Brazil port authorities allowing ASEAN routed chains",
+      "confidence": 0.87
+    },
+    {
+      "sku": "MEDICAL_CHAIR",
+      "region": "ASEAN",
+      "trend": "HOSPITAL_RENEWAL",
+      "intel": "Public hospital upgrades increasing sterile recliner demand",
+      "confidence": 0.90
+    }
+  ]
+}

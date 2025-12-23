@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Technical Passport | YiShen Global</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;background:#020814;color:#fff;font-family:Inter}
+header {padding:20px 40px;display:flex;justify-content:space-between}
+header a{color:#6ee7ff;text-decoration:none;margin-left:30px}
+.section{max-width:1100px;margin:auto;padding:120px 40px}
+h1{color:#6ee7ff;font-size:46px}
+.box{background:#061626;border-radius:16px;padding:40px;margin-top:40px}
+.key{color:#6ee7ff;font-weight:700}
+footer{text-align:center;padding:80px;color:#6ee7ff}
+</style>
+</head>
+
+<body>
+
+<header>
+<strong>YiShen Global</strong>
+<nav>
+<a href="index.html">HOME</a>
+<a href="genesis.html">GENESIS</a>
+<a href="solutions.html">SOLUTIONS</a>
+<a href="clusters.html">CLUSTERS</a>
+<a href="resources.html">RESOURCES</a>
+</nav>
+</header>
+
+<section class="section">
+<h1 id="sku">SKU_NODE</h1>
+
+<div class="box">
+<div class="key">Customs Code</div>
+<div>HS 9401 / 7315 / 9402 (Dynamic Match)</div>
+</div>
+
+<div class="box">
+<div class="key">Compliance</div>
+<div>BIFMA / CE / ISO / ISTA-6A Auto Verified</div>
+</div>
+
+<div class="box">
+<div class="key">Logistics Certainty</div>
+<div>Predictive CBM Packing / Anti-Dumping Shielding / ASEAN Routing</div>
+</div>
+
+<div class="box">
+<div class="key">AI Market Insight</div>
+<div id="intel">Loading market intelligence...</div>
+</div>
+</section>
+
+<footer>© YiShen Global | Sovereign Supply Intelligence Layer</footer>
+
+<script>
+const p = new URLSearchParams(window.location.search);
+document.getElementById("sku").innerText = p.get("id") || "UNIDENTIFIED_NODE";
+document.getElementById("intel").innerText =
+"Competitive pressure detected in US/EU markets. Alternative routing activated.";
+</script>
+
+</body>
+</html>
